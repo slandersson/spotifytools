@@ -7,7 +7,7 @@ Accessible at http://spotify.simonandersson.co.uk
 ## Install Instructions
 * clone
 * Install npm and node
-* Change lines 15-17 in app.js to your spotify application keys 
+* Change lines 15-17 in app.js to your spotify application keys and URI
 * Run node app.js
 
 ## Current functionality:
