@@ -18,7 +18,7 @@ Accessible at http://spotify.simonandersson.co.uk
 
 ## Technologies
 * node.js
-* javascript/html/css
+* jquery/js/html/css
 * deployed on heroku
 
 ## Plan
