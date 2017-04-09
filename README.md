@@ -22,7 +22,7 @@ Accessible at http://spotify.simonandersson.co.uk
 * deployed on heroku
 
 ## Plan
-Plan is too add some more data visualisations and let you download them as images/files
+Plan is to add some more data visualisations and let you download them as images/files
 
 ## Credit
 Started from this app:
