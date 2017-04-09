@@ -1,6 +1,6 @@
 # spotifytools
 
-An simple web application making use of the Spotify Web API.
+An simple js application making use of the Spotify Web API.
 
 Accessible at http://spotify.simonandersson.co.uk
 
