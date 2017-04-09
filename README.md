@@ -5,7 +5,9 @@ An application making use of the Spotify Web API.
 Accessible at http://spotify.simonandersson.co.uk
 
 ## Install Instructions
+* clone
 * Install npm and node
+* Change lines 15-17 in app.js to your spotify application keys 
 * Run node app.js
 
 ## Current functionality:
