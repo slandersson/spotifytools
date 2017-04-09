@@ -23,3 +23,14 @@ Accessible at http://spotify.simonandersson.co.uk
 
 ## Plan
 Plan is too add some more data visualisations and let you download them as images/files
+
+## Credit
+Started from this app:
+
+https://github.com/spotify/web-api-auth-examples
+
+Inspiration for the idea:
+
+http://lastfm.dontdrinkandroot.net/
+
+I wanted to have an alternative stats viewer so that I can abandon lastfm altogether. There are some issues with the spotify API and it's quite limited, but they have plans to relax some of the restrictions.
