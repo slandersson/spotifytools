@@ -5,6 +5,7 @@
   <meta name="keywords" content="Spotify, Tools, Visualization, Charts, Collage, Statistics, Genres, most listened, Cloud, Graph, Tag Cloud, Artist Cloud, Top Artists, Simple, Light, node.js, javascript" />
   <title>Spotify Top Artists - Simple grid</title>
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/custom.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
@@ -14,18 +15,15 @@
   <div class="container">
     <div id="login">
       <h1>See your top Spotify artists</h1>
-      <section id="sub">
-        <div id="go"><a href="/login" class="button button1">go</a></div>
-        <div id="subtitle">The app will ask for read access to your account</div>
-      </section>
-    </div>
+      <h2>The app will ask for read access to your account.
+        <div id="go"><a href="/login" class="button button1">go</a>  </div></div>
     <div id="loggedin">
       <div class="row">
-        <div class="col-xs-4" id="leftcol">
+        <div class="col-lg-4 col-md-4 col-xs-12" id="leftcol">
           <div id="user-profile">
           </div>
         </div>
-        <div class="col-xs-4" id="artistscol" style='display:none;'>
+        <div class="col-lg-4 col-md-4 col-xs-12" id="artistscol" style='display:none;'>
           <div id="artists">
           </div>
           <div id="monthartists" style='display:none;'>
@@ -34,7 +32,7 @@
           </div>
         </div>
 
-        <div class="col-xs-4" id="genrescol" style='display:none;'>
+        <div class="col-lg-4 col-md-4 col-xs-12" id="genrescol" style='display:none;'>
           <div id="genres">
           </div>
           <div id="monthgenres" style='display:none;'>
@@ -42,7 +40,7 @@
           <div id="alltimegenres" style='display:none;'>
           </div>
         </div>
-        <div class="col-xs-8" id="artworkcol">
+        <div class="col-lg-8 col-md-8 col-xs-12" id="artworkcol">
           <div id="artwork" class="text-overflow2">
           </div>
           <div id="monthartwork" class="text-overflow2" style='display:none;'>
@@ -67,7 +65,7 @@
       </a>
       <a href="/" class="button button1">back</a>
       <div id="about">
-        <p>Most played artists and genres are listed on the right. Controls belows.
+        <p>This is a tool to display your most played artists and genres. Controls below. Best viewed full screen on a desktop.
           <p>
             <p>Developed by <a href="https://open.spotify.com/user/snomi94" target="_blank">@snomi94</a> using nodejs.
               <p>

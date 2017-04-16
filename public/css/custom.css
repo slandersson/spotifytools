@@ -7,7 +7,10 @@ body {
 }
 
 h1, .h1 {
-  font-size: 36px;
+  font-size: 45px;
+}
+h2 {
+  font-size: 22px;
 }
 
 a {
@@ -57,23 +60,18 @@ th, td {
 }
 
 #sub {
-  width: 80%;
+  width: 90%;
   height: 50px;
   margin-top: 20px;
-  padding: 0px;
-}
-
-#subtitle {
-  margin-left: 12%;
-  height: 50px;
-  padding-top: 18px;
+  padding: 0px
 }
 
 #go {
-  padding-left: 8px;
-  float: left;
-  width=10%;
-  height: 50px;
+  font-size: 30px;
+  padding: 10px;
+}
+#go>.button1 {
+  padding: 18px 30px 18px 30px;
 }
 
 #artwork, {
@@ -103,8 +101,13 @@ th, td {
   padding-top: 20px;
 }
 
-#login, #loggedin {
+#loggedin {
   display: none;
+}
+#login {
+  position: absolute;
+  top: 25%;
+  text-align: center;
 }
 
 .text-overflow {
