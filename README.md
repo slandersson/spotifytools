@@ -15,6 +15,7 @@ Accessible at http://spotify.simonandersson.co.uk
 * List of artists names (5-50)
 * Calculates the genres with the highest occurance in the top 50 artists. (5-100)
 * Show and hide the above
+Target system is a desktop/laptop
 
 ## Technologies
 * node.js
